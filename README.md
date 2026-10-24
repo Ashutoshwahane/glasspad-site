@@ -1,2 +1,3 @@
-# glasspad-site
-Official GlassPad website, support and privacy policy.
+# GlassPad website
+
+Public product, support and privacy pages. Native application source is maintained separately.
