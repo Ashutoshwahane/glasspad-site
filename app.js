@@ -6,7 +6,6 @@
     const cursor = document.getElementById('play-cursor');
     const toastEl = document.getElementById('play-toast');
     const menuApp = document.getElementById('play-mbapp');
-    const widgetApp = document.getElementById('play-wapp');
     const themeButtons = [...document.querySelectorAll('.play-themes button')];
     const tabs = [...document.querySelectorAll('.play-tabs [role="tab"]')];
     let toastTimer;
@@ -69,8 +68,6 @@
       win.style.zIndex = ++z;
       front = win;
       menuApp.textContent = win.dataset.app;
-      widgetApp.textContent = win.dataset.app;
-      document.getElementById('play-wscroll').value = (parseFloat(win.querySelector('.play-scroller').dataset.y) || 0) / 1.6;
     };
     const openApp = name => {
       let win = windows[name];
@@ -113,7 +110,6 @@
       scroller.dataset.y = y;
       scroller.style.transform = `translateY(${-y}px)`;
     };
-    document.getElementById('play-wscroll').addEventListener('input', event => scrollTo(event.target.value * 1.6));
 
     const click = kind => {
       ripple();

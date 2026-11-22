@@ -9,7 +9,7 @@
   <link rel="canonical" href="https://ashutoshwahane.dev/glasspad-site/">
   <link rel="icon" href="assets/brand.png">
   <link rel="stylesheet" href="style.css">
-  <link rel="preload" href="assets/launcher-midnight.jpg" as="image">
+  <link rel="preload" href="assets/launcher-hero.jpg" as="image">
   <meta name="apple-itunes-app" content="app-id=6826582384">
   <meta property="og:type" content="website">
   <meta property="og:title" content="GlassPad: your iPhone or iPad as a Mac trackpad">
@@ -25,7 +25,7 @@
   <header class="site-header wrap">
     <nav aria-label="Main">
       <a class="brand" href="./" aria-label="GlassPad home"><img src="assets/brand.png" alt="" width="38" height="38">GlassPad</a>
-      <div class="nav-links"><a href="#features">Explore</a><a href="support.html">Support</a></div>
+      <div class="nav-links"><a href="#features">Explore</a><a href="mac/">Mac app</a><a href="support.html">Support</a></div>
       <a class="button button-small button-dark" href="#download">Get GlassPad <span aria-hidden="true">↗</span></a>
     </nav>
   </header>
@@ -41,7 +41,7 @@
       </div>
       <div class="hero-art" aria-label="GlassPad launcher on iPhone">
         <div class="glass-orbit orbit-back" aria-hidden="true"></div>
-        <div class="phone hero-phone"><img src="assets/launcher-midnight.jpg" alt="GlassPad on iPhone in Midnight Glass, with Safari, Music, Notes, Calendar, a website and a Shortcut ready to launch, above a live Safari widget." width="786" height="1704" fetchpriority="high"><span class="phone-speaker" aria-hidden="true"></span></div>
+        <div class="phone hero-phone"><img src="assets/launcher-hero.jpg" alt="GlassPad on iPhone with Safari, Music, Notes, Calendar, a website and a Shortcut ready to launch." width="786" height="1704" fetchpriority="high"><span class="phone-speaker" aria-hidden="true"></span></div>
         <div class="glass-orbit orbit-front" aria-hidden="true"></div>
         <div class="floating-key key-command" aria-hidden="true">⌘</div>
         <div class="floating-key key-pointer" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M15 9 52 34 34 38 26 55Z"/></svg></div>
@@ -83,7 +83,6 @@
           <div class="play-pane" id="play-p-launcher" role="tabpanel" aria-label="Launcher">
             <p class="play-title">Favorites</p>
             <div class="play-grid" id="play-tiles"></div>
-            <div class="play-widget"><div class="play-wrow"><b>Active app</b><span id="play-wapp">Finder</span></div><label for="play-wscroll">Slide to scroll</label><input id="play-wscroll" type="range" min="0" max="100" value="0"></div>
           </div>
           <div class="play-pane" id="play-p-keyboard" role="tabpanel" aria-label="Keyboard" hidden>
             <p class="play-title">Type, then send</p>
@@ -127,8 +126,8 @@
   </section>
 
   <section class="ipad-section section" aria-labelledby="ipad-title"><div class="wrap ipad-layout">
-    <div class="ipad-copy"><p class="eyebrow">At home on iPad, too</p><h2 id="ipad-title">More space.<br> Same flow.</h2><p>Put a bigger launch pad beside your Mac. Apps, the active-app widget, recent favorites, emojis, and window controls have room to breathe.</p><p class="small-note">One Mac, one connected device at a time.</p></div>
-    <div class="tablet"><img src="assets/ipad-launcher-midnight.jpg" alt="GlassPad on iPad in Midnight Glass, showing favorite apps, the active-app widget, recent apps, emoji favorites and window controls." width="1032" height="1376" loading="lazy"></div>
+    <div class="ipad-copy"><p class="eyebrow">At home on iPad, too</p><h2 id="ipad-title">More space.<br> Same flow.</h2><p>Put a bigger launch pad beside your Mac. Apps, recent favorites, emojis, and window controls have room to breathe.</p><p class="small-note">One Mac, one connected device at a time.</p></div>
+    <div class="tablet"><img src="assets/ipad-launcher-modern.jpg" alt="GlassPad on iPad showing favorite apps, recent apps, emoji favorites and window controls." width="1032" height="1376" loading="lazy"></div>
   </div></section>
 
   <section class="setup section wrap" id="setup" aria-labelledby="setup-title">
@@ -145,7 +144,7 @@
     <p class="eyebrow">Make room for GlassPad</p><h2 id="download-title">Your next favorite<br> Mac companion.</h2>
     <div class="download-grid">
       <article class="download-card ios-download"><div class="platform-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="13" y="4" width="22" height="40" rx="5"/><path d="M20 9h8M21 39h6"/></svg></div><h3>On iPhone &amp; iPad</h3><p>Your trackpad, keyboard, and launcher. Start a free 7-day trial after you pair.</p><a class="button button-dark" href="https://apps.apple.com/app/glasspad/id6826582384">Get it on the App Store <span aria-hidden="true">↗</span></a><p class="requirements">Requires iOS or iPadOS 17 or later</p></article>
-      <article class="download-card mac-download"><div class="platform-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="6" width="38" height="27" rx="3"/><path d="M17 42h14M24 33v9M5 27h38"/></svg></div><h3>On your Mac</h3><p>The free companion brings your devices together. Developer-signed and notarized by Apple, ready for your Mac.</p><a class="button button-dark" href="https://github.com/Ashutoshwahane/glasspad-site/releases/download/mac-v1.1-build11/GlassPad-Mac-1.1-11.zip">Download for Mac <span aria-hidden="true">↓</span></a><p class="requirements">1.1 (11) · macOS 14 or later<br> Apple silicon and Intel</p></article>
+      <article class="download-card mac-download"><div class="platform-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="6" width="38" height="27" rx="3"/><path d="M17 42h14M24 33v9M5 27h38"/></svg></div><h3>On your Mac</h3><p>The free companion brings your devices together. Developer-signed and notarized by Apple, ready for your Mac.</p><a class="button button-dark" href="https://github.com/Ashutoshwahane/glasspad-site/releases/download/mac-v1.1-build11/GlassPad-Mac-1.1-11.zip">Download for Mac <span aria-hidden="true">↓</span></a><p class="requirements">1.1 (11) · macOS 14 or later<br> Apple silicon and Intel<br> Share this page: <a href="mac/">ashutoshwahane.dev/glasspad-site/mac</a></p></article>
     </div>
     <p class="trial-note"><strong>A full week to find your flow.</strong> After pairing, confirm Apple’s free 7-day trial. Then unlock lifetime access with a one-time purchase. No subscription or automatic charge. All remote controls require an active trial or lifetime purchase.</p>
   </div></section>
@@ -159,6 +158,6 @@
   </div></section>
 </div>
 </main>
-<footer class="site-footer"><div class="wrap"><div class="footer-top"><a class="brand" href="./"><img src="assets/brand.png" alt="" width="38" height="38">GlassPad</a><p>Your Mac, a touch closer.</p><a class="text-link" href="mailto:ashutoshwahane404@gmail.com">Say hello <span aria-hidden="true">↗</span></a></div><div class="footer-bottom"><p>© 2026 Ashutosh Wahane</p><div><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="https://github.com/Ashutoshwahane/glasspad-site/releases/tag/mac-v1.1-build11">Release notes</a></div></div></div></footer>
+<footer class="site-footer"><div class="wrap"><div class="footer-top"><a class="brand" href="./"><img src="assets/brand.png" alt="" width="38" height="38">GlassPad</a><p>Your Mac, a touch closer.</p><a class="text-link" href="mailto:ashutoshwahane404@gmail.com">Say hello <span aria-hidden="true">↗</span></a></div><div class="footer-bottom"><p>© 2026 Ashutosh Wahane</p><div><a href="mac/">Mac app</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="https://github.com/Ashutoshwahane/glasspad-site/releases/tag/mac-v1.1-build11">Release notes</a></div></div></div></footer>
 </body>
 </html>

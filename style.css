@@ -100,3 +100,12 @@ body:not(.landing)>header,body:not(.landing)>main,body:not(.landing)>footer{widt
 .play-cta{margin-top:24px;color:var(--accent)}
 @media(max-width:860px){.play{grid-template-columns:1fr;padding:20px 14px;gap:18px}.play-themes{justify-content:center}.play-mac{order:-1;grid-row:2}.play-phone{max-width:270px;aspect-ratio:9/17}.play-note{font-size:12px}.play-tile{padding:8px 4px 7px;gap:4px}.play-ico{width:28px;height:28px}.play-widget label{display:none}}
 @media(prefers-reduced-motion:reduce){.play-win,.play-ripple,.play-caret{animation:none}.play-scroller,.play-scr,.play-toast{transition:none}}
+
+/* Mac download page (mac/index.html) */
+.mac-page h1{font-size:clamp(46px,5.6vw,80px);max-width:850px}
+.mac-lead{max-width:600px;margin:26px 0 0;font-size:18px;color:#33555e}
+.download-section .download-card .mac-card-title{font-size:31px;margin-bottom:18px;letter-spacing:-.04em}
+.download-card .requirements a{color:inherit}
+.mac-help{margin-top:48px;color:var(--muted);font-size:15px}
+.mac-help a{color:var(--accent)}
+@media(max-width:760px){.mac-page h1{font-size:47px}.mac-lead{font-size:16px}.download-section .download-card .mac-card-title{font-size:29px}}
